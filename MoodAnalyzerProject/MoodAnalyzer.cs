@@ -6,17 +6,26 @@ using System.Threading.Tasks;
 
 namespace MoodAnalyzerProject
 {
+    
     public class MoodAnalyzer
     {
-        public string AnalyzeMood(string msg)
+        string msg;
+        public MoodAnalyzer()
         {
-            if (msg.Equals("Happy"))
-            {
-                return "Happy";
-            }
-            if(msg.Equals("Sad"))
+        }
+        public MoodAnalyzer(string msg)
+        {
+                this.msg = msg;
+        }
+        public string AnalyzeMood()
+        {
+            if (msg.Equals("I am in sad mood"))
             {
                 return "Sad";
+            }
+            if (msg.Equals("I am in any mood"))
+            {
+                return "Happy";
             }
             return null;
         }

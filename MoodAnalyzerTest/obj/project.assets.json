@@ -5835,11 +5835,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\users\\rj\\source\\repos\\MoodAnalyzerProject\\MoodAnalyzerTest\\MoodAnalyzerTest.csproj",
+      "projectUniqueName": "E:\\Nityanand\\MoodAnalyzerProject\\MoodAnalyzerTest\\MoodAnalyzerTest.csproj",
       "projectName": "MoodAnalyzerTest",
-      "projectPath": "c:\\users\\rj\\source\\repos\\MoodAnalyzerProject\\MoodAnalyzerTest\\MoodAnalyzerTest.csproj",
+      "projectPath": "E:\\Nityanand\\MoodAnalyzerProject\\MoodAnalyzerTest\\MoodAnalyzerTest.csproj",
       "packagesPath": "C:\\Users\\RJ\\.nuget\\packages\\",
-      "outputPath": "c:\\users\\rj\\source\\repos\\MoodAnalyzerProject\\MoodAnalyzerTest\\obj\\",
+      "outputPath": "E:\\Nityanand\\MoodAnalyzerProject\\MoodAnalyzerTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5858,8 +5858,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "c:\\users\\rj\\source\\repos\\MoodAnalyzerProject\\MoodAnalyzerProject\\MoodAnalyzerProject.csproj": {
-              "projectPath": "c:\\users\\rj\\source\\repos\\MoodAnalyzerProject\\MoodAnalyzerProject\\MoodAnalyzerProject.csproj"
+            "E:\\Nityanand\\MoodAnalyzerProject\\MoodAnalyzerProject\\MoodAnalyzerProject.csproj": {
+              "projectPath": "E:\\Nityanand\\MoodAnalyzerProject\\MoodAnalyzerProject\\MoodAnalyzerProject.csproj"
             }
           }
         }
