@@ -1,0 +1,7 @@
+c:\users\rj\source\repos\MoodAnalyzerProject\MoodAnalyzerProject\bin\Debug\MoodAnalyzerProject.exe.config
+c:\users\rj\source\repos\MoodAnalyzerProject\MoodAnalyzerProject\bin\Debug\MoodAnalyzerProject.exe
+c:\users\rj\source\repos\MoodAnalyzerProject\MoodAnalyzerProject\bin\Debug\MoodAnalyzerProject.pdb
+c:\users\rj\source\repos\MoodAnalyzerProject\MoodAnalyzerProject\obj\Debug\MoodAnalyzerProject.csprojAssemblyReference.cache
+c:\users\rj\source\repos\MoodAnalyzerProject\MoodAnalyzerProject\obj\Debug\MoodAnalyzerProject.csproj.CoreCompileInputs.cache
+c:\users\rj\source\repos\MoodAnalyzerProject\MoodAnalyzerProject\obj\Debug\MoodAnalyzerProject.exe
+c:\users\rj\source\repos\MoodAnalyzerProject\MoodAnalyzerProject\obj\Debug\MoodAnalyzerProject.pdb
