@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MoodAnalyzerProject
 {
-    
+
     public class MoodAnalyzer
     {
         string msg;
@@ -15,19 +15,36 @@ namespace MoodAnalyzerProject
         }
         public MoodAnalyzer(string msg)
         {
-                this.msg = msg;
+            this.msg = msg;
         }
         public string AnalyzeMood()
         {
-            if (msg.Equals("I am in sad mood"))
+            try
             {
-                return "Sad";
+                if (this.msg.Equals(string.Empty))
+                {
+                    throw new MoodAnalysisException(MoodAnalysisException.ExceptionType.EMPTY_MOOD, "Input should not be empty.");
+                }
+                if (msg.Equals("I am in sad mood"))
+                {
+                    return "Sad";
+                }
+                if (msg.Equals("I am in any mood")) 
+                {
+                    return "Happy";
+                }
+                if (msg == null)
+                {
+                    return "Happy";
+                }
             }
-            if (msg.Equals("I am in any mood"))
+            catch (NullReferenceException)
             {
-                return "Happy";
+                throw new MoodAnalysisException(MoodAnalysisException.ExceptionType.NULL_MOOD, "Input should not be empty.");
             }
             return null;
         }
     }
+       
+    
 }

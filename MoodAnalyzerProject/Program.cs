@@ -10,13 +10,13 @@ namespace MoodAnalyzerProject
     {
         static void Main(string[] args)
         {
-            string message1 = "I am in Sad mood";
-            MoodAnalyzer mood1 = new MoodAnalyzer(message1);
-            mood1.AnalyzeMood();
+            Console.WriteLine("Enter your mood :");
 
-            string message2 = "I am in any mood";
-            MoodAnalyzer mood2 = new MoodAnalyzer(message2);
-            mood2.AnalyzeMood();
+            string message = Console.ReadLine();
+
+            MoodAnalyzer mood = new MoodAnalyzer(message);
+            mood.AnalyzeMood();
+
         }
     }
 }
