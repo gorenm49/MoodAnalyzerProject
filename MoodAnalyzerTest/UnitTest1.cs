@@ -28,5 +28,13 @@ namespace MoodAnalyzerTest
             MoodAnalyzer mood = new MoodAnalyzer(message);
             Assert.AreEqual("Happy", mood.AnalyzeMood());
         }
+
+        [TestMethod]
+        public void TestMethod4()
+        {
+            string message = null;
+            MoodAnalyzer mood = new MoodAnalyzer(message);
+            Assert.AreEqual("Input should not be null.", mood.AnalyzeMood());
+        }
     }
 }

@@ -8,7 +8,6 @@ c:\users\rj\source\repos\MoodAnalyzerProject\MoodAnalyzerProject\obj\Debug\MoodA
 E:\Nityanand\MoodAnalyzerProject\MoodAnalyzerProject\bin\Debug\MoodAnalyzerProject.exe.config
 E:\Nityanand\MoodAnalyzerProject\MoodAnalyzerProject\bin\Debug\MoodAnalyzerProject.exe
 E:\Nityanand\MoodAnalyzerProject\MoodAnalyzerProject\bin\Debug\MoodAnalyzerProject.pdb
-E:\Nityanand\MoodAnalyzerProject\MoodAnalyzerProject\obj\Debug\MoodAnalyzerProject.csprojAssemblyReference.cache
 E:\Nityanand\MoodAnalyzerProject\MoodAnalyzerProject\obj\Debug\MoodAnalyzerProject.csproj.CoreCompileInputs.cache
 E:\Nityanand\MoodAnalyzerProject\MoodAnalyzerProject\obj\Debug\MoodAnalyzerProject.exe
 E:\Nityanand\MoodAnalyzerProject\MoodAnalyzerProject\obj\Debug\MoodAnalyzerProject.pdb

@@ -25,6 +25,10 @@ namespace MoodAnalyzerProject
                 {
                     throw new MoodAnalysisException(MoodAnalysisException.ExceptionType.EMPTY_MOOD, "Input should not be empty.");
                 }
+                if (this.msg.Equals(null))
+                {
+                    throw new MoodAnalysisException(MoodAnalysisException.ExceptionType.INVALID_MOOD, "Input should not be null.");
+                }
                 if (msg.Equals("I am in sad mood"))
                 {
                     return "Sad";
@@ -38,9 +42,9 @@ namespace MoodAnalyzerProject
                     return "Happy";
                 }
             }
-            catch (NullReferenceException)
+            catch (Exception ex)
             {
-                throw new MoodAnalysisException(MoodAnalysisException.ExceptionType.NULL_MOOD, "Input should not be empty.");
+                Console.WriteLine("Input should not be null",ex.Message);
             }
             return null;
         }
