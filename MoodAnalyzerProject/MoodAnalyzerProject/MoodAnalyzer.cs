@@ -9,7 +9,7 @@ namespace MoodAnalyzerProject
 
     public class MoodAnalyzer
     {
-        string msg;
+        public string msg;
         public MoodAnalyzer()
         {
         }
@@ -21,14 +21,15 @@ namespace MoodAnalyzerProject
         {
             try
             {
+                if (this.msg == null)
+                {
+                    throw new MoodAnalysisException(MoodAnalysisException.ExceptionType.INVALID_MOOD, "Input should not be null.");
+                }
                 if (this.msg.Equals(string.Empty))
                 {
                     throw new MoodAnalysisException(MoodAnalysisException.ExceptionType.EMPTY_MOOD, "Input should not be empty.");
                 }
-                if (this.msg.Equals(null))
-                {
-                    throw new MoodAnalysisException(MoodAnalysisException.ExceptionType.INVALID_MOOD, "Input should not be null.");
-                }
+                
                 if (msg.Equals("I am in sad mood"))
                 {
                     return "Sad";
@@ -42,9 +43,9 @@ namespace MoodAnalyzerProject
                     return "Happy";
                 }
             }
-            catch (Exception ex)
+            catch (MoodAnalysisException ex)
             {
-                Console.WriteLine("Input should not be null",ex.Message);
+                return ex.Message;
             }
             return null;
         }

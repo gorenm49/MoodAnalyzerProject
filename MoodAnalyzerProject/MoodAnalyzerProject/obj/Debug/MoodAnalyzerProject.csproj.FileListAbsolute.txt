@@ -11,3 +11,4 @@ E:\Nityanand\MoodAnalyzerProject\MoodAnalyzerProject\bin\Debug\MoodAnalyzerProje
 E:\Nityanand\MoodAnalyzerProject\MoodAnalyzerProject\obj\Debug\MoodAnalyzerProject.csproj.CoreCompileInputs.cache
 E:\Nityanand\MoodAnalyzerProject\MoodAnalyzerProject\obj\Debug\MoodAnalyzerProject.exe
 E:\Nityanand\MoodAnalyzerProject\MoodAnalyzerProject\obj\Debug\MoodAnalyzerProject.pdb
+E:\Nityanand\MoodAnalyzerProject\MoodAnalyzerProject\obj\Debug\MoodAnalyzerProject.csprojAssemblyReference.cache

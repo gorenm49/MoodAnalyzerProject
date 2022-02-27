@@ -10,13 +10,13 @@ namespace MoodAnalyzerProject
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Welcome to Mood Analyzer Project");
             Console.WriteLine("Enter your mood :");
 
             string message = Console.ReadLine();
 
             MoodAnalyzer mood = new MoodAnalyzer(message);
             mood.AnalyzeMood();
-
         }
     }
 }

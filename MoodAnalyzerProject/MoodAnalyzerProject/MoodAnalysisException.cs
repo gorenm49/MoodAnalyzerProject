@@ -11,7 +11,9 @@ namespace MoodAnalyzerProject
         public enum ExceptionType
         {
             INVALID_MOOD,
-            EMPTY_MOOD
+            EMPTY_MOOD,
+            IMPROPER_CLASS_NAME,
+            IMPROPER_CONSTRUCTOR_NAME
         }
 
         public ExceptionType exceptionType;
